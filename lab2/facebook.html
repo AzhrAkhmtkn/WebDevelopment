@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .footer{
+                background-color: white;
+                left: 0;
+                bottom: 0;
+                width: 101%;
+                position: relative;
+                top: 270px;
+            }
+            .footer-text {
+                margin-left: 207px;
+            }
+            .right-part, .left-part{
+                display:inline-block;
+            }
+            .right-part{
+                position: relative;
+                left: 41px;
+                top: 120px;
+            }
+            .left-part{
+                position: relative;
+                right: 50px;
+                bottom: 30px;
+                line-height: 1.34;
+                padding-right: 32px;
+            }
+            #left-right{
+                text-align: center;
+                
+            }
+            fieldset{
+                top:200px;
+                font-size: 16px;
+                height: 328px;
+                width: 380px;
+                border:none;
+                box-shadow: 0.2em 0.2em 5px rgba(148, 148, 148, 0.5);
+                border-radius: 8px;
+                background-color: white;   
+                margin-bottom: 30px;
+                line-height: 12px;
+                
+            }
+            #email{
+                margin-top: 10px;
+                
+            }
+            #forg-password{
+                color:  rgb(47, 153, 252);
+            }
+            input{
+                width: 370px;
+                height: 50px;
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                border-radius: 6px;
+                border-color:  #ebebebd8;
+                border-style: double;
+                line-height: 10px;
+                
+            }
+            
+            #vhod{
+                background-color: rgb(47, 153, 252);
+                color: white;
+                width:378px;
+                height: 50px;
+                border-radius: 6px;
+                border: 0;
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            #create-account{
+                background-color: rgb(11, 187, 11);
+                width:190px;
+                height: 50px;
+                border-radius: 6px;
+                border: 0;
+                font-size: 15px;
+                font-weight: bold;
+                margin-top: 18px;
+                
+            }
+            #create-account a{
+                text-decoration: none;
+                color: white
+            }
+            .right-part a{
+                text-decoration: none;
+            }
+            .right-part p a{
+                color: black;
+                font-weight: bold;
+                margin-top: 40px;
+                
+            }
+            .right-part p{
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 14px;
+            }
+            
+            .left-part p{
+                height: 84px;
+                text-align: left;
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 28px;
+            }
+            .left-part img{
+                width: 300px;
+                height: 100px;
+                position: relative;
+                top: 35px;
+                right: 120px;
+            }
+            
+            body {
+                background: #ebebebd8;
+                color: #1c1e21;
+            }
+            span {
+                margin: 55px;
+                font-size: 14px;
+                color: #8a8d91;
+            }
+            #contentCurve {
+                border-bottom: 1px solid #dddfe2;
+                font-size: 1px;
+                margin-bottom: 8px;
+            }
+            .footer #contentCurve{
+                width:80%;  
+            }
+            .languages {
+                display: flex;
+                list-style-type: none;
+                color: #8a8d91;
+                
+                
+            }
+            .languages li{
+                font-size: 14px;
+                margin-top: 28px;
+                margin-left: 5px;
+                
+            }
+            .languages a{
+                text-decoration: none;
+                color: #868686;
+            }
+            .services{
+                display: flex;
+                list-style-type: none;
+                color: #8a8d91;
+                vertical-align: top;
+            }
+            .services li{
+                
+                line-height: 7px;
+                text-decoration: none;
+                font-size: 14px;
+                margin-left: 14px;
+            }
+            .services a{
+                text-decoration: none;
+                color: #868686;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="left-right">
+
+        <div class="left-part">
+
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook-logo">
+            <p>Facebook помогает вам всегда<br> оставаться на связи и общаться со <br>своими знакомыми.</p>
+
+        </div>
+
+
+        <div class="right-part">
+            <form> 
+                <fieldset>
+                <input id="email" type="text" placeholder="Электронный адрес или номер телефона"> <br><br>
+                <input id="password" type="password" placeholder="Пароль"> <br><br>
+                <button id="vhod">Вход</button> <br><br>
+                <a id="forg-password" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Забыли пароль?</a> <br><br>
+                <div id="contentCurve" id='curve-form'></div>
+                <button id="create-account"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Создать аккаунт</a></button>
+                </fieldset>
+                
+            </form>
+            <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Создать Cтраницу</a>
+                знаменитости, музыкальной группы или <br>компании.</p>
+
+        </div>
+
+        </div>
+
+
+        <div class="footer">
+            <div class="footer-text">
+            <ul class="languages">
+                <li>Русский</li>
+                <li><a href="https://www.facebook.com/" title="English (US)">English (US)</a></li>
+                <li><a href="https://tr-tr.facebook.com/" title="Turkish">Türkçe</a></li>
+                <li><a href="https://id-id.facebook.com/" title="Indonesian">Bahasa Indonesia</a></li>
+                <li><a href="https://kk-kz.facebook.com/" title="Kazakh">Қазақша</a></li>
+                <li><a href="https://zh-cn.facebook.com/" title="Simplifed Chinese (China)">中文(简体)</a></li>
+                <li><a href="https://de-de.facebook.com/" title="German">Deutsch</a></li>
+                <li><a href="https://ko-kr.facebook.com/" title="Korean">한국어</a></li>
+                <li><a href="https://sq-al.facebook.com/" title="Albanian">Shqip</a></li>
+                <li><a href="https://es-la.facebook.com/" title="Spanish">Español</a></li>
+                <li><a href="https://pt-br.facebook.com/" title="Portuguese (Brazil)">Português (Brasil)</a></li>
+                <li><button><a title="Еще языки">+</a></button></li>    
+            </ul>
+            <div id="contentCurve"></div>
+
+            <ul class="services">
+                <li><a href="https://www.facebook.com/r.php" title="Регистрация на Facebook">Регистрация</a></li>
+                <li><a href="https://www.facebook.com/login/" title="Войдите на Facebook">Вход</a></li>
+                <li><a href="https://messenger.com/" title="Оцените Messenger.">Messenger</a></li>
+                <li><a href="https://www.facebook.com/lite/" title="Facebook Lite для Android.">Facebook Lite</a></li>
+                <li><a href="https://www.facebook.com/watch/" title="Посмотреть наши видео на Facebook Watch."> Watch </a></li>
+                <li><a href="https://www.facebook.com/directory/people/" title="Посмотрите наш каталог пользователей.">Люди</a></li>
+                <li><a href="https://www.facebook.com/directory/pages/" title="Просматривайте наш каталог Страниц.">Страницы</a></li>
+                <li><a href="https://www.facebook.com/pages/category/">Категории Страниц</a></li>
+                <li><a href="https://www.facebook.com/places/" title="Ознакомьтесь с популярными местами на Facebook.">Места</a></li>
+                <li><a href="https://www.facebook.com/games/" title="Познакомьтесь с играми на Facebook.">Игры</a></li>
+                <li><a href="https://www.facebook.com/directory/places/" title="Просмотрите наш каталог мест.">Места</a></li>
+                <li><a href="https://www.facebook.com/marketplace/" title="Покупайте и продавайте через Facebook Marketplace.">Marketplace</a></li>
+                <li><a href="https://pay.facebook.com/" title="Подробнее о Facebook Pay">Facebook Pay</a></li>
+            </ul>
+            <ul class="services">
+                
+                <li><a href="https://www.facebook.com/directory/groups/" title="Просмотреть наш каталог групп.">Группы</a></li>
+                <li><a href="https://www.facebook.com/jobs/" title="Отправляйте заявки на замещение вакансий и нанимайте персонал на Facebook.">Вакансии</a></li>
+                <li><a href="https://www.oculus.com/"title="Подробнее об Oculus">Oculus</a></li>
+                <li><a href="https://portal.facebook.com/" title="Подробнее о Portal from Facebook">Portal</a></li>
+                <li><a href="https://www.instagram.com/" title="Попробуйте Instagram" >Instagram</a></li>
+                <li><a href="https://www.facebook.com/local/lists/245019872666104/" title="Просмотреть наш каталог &quot;Местные списки&quot;.">Местные</a></li>
+                <li><a href="https://www.facebook.com/fundraisers/" title="Пожертвовать в поддержку общественно значимых дел">Благотворительные акции</a></li>
+                <li><a href="https://www.facebook.com/biz/directory/" title="Посмотреть наш каталог &quot;Сервисы Facebook&quot;.">Услуги</a></li>
+                <li><a href="https://www.facebook.com/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D" title="Перейти в Центр информации о голосовании.">Центр информации о голосовании</a></li>
+                <li><a href="https://www.facebook.com/facebook" title="Прочтите наш блог, ознакомьтесь с материалами, найдите  вакансии.">О нас</a></li>
+                <li><a href="https://www.facebook.com/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;extra_1=auto" title="Реклама на  Facebook.">Создать рекламу</a></li>
+               
+            </ul>
+            <ul class="services">
+               
+                <li><a href="https://www.facebook.com/pages/create/?ref_type=site_footer" title="Создать Страницу">Создать Страницу</a></li>
+                <li><a href="https://developers.facebook.com/?ref=pf" title="Развивайтесь на нашей платформе.">Разработчикам</a></li>
+                <li><a href="https://www.facebook.com/careers/?ref=pf" title="Сделайте следующий шаг в карьере в нашей отличной компании.">Вакансии</a></li>
+                <li><a href="https://www.facebook.com/privacy/explanation" title="Узнайте о своей конфиденциальности на Facebook.">Конфиденциальность</a></li>
+                <li><a href="https://www.facebook.com/policies/cookies/" title="Узнайте больше о cookies и Facebook." >Файлы cookie</a></li>
+                <li><a href="https://www.facebook.com/help/568137493302217" title="Подробнее о выборе рекламы.">Выбор рекламы<i class="img sp_9-wrMfOJ0eG_1_5x sx_43cd55"></i></a></li>
+                <li><a href="https://www.facebook.com/policies?ref=pf" title="Просмотрите наши условия и правила.">Условия использования</a></li>
+                <li><a href="https://www.facebook.com/help/?ref=pf" title="Посетите наш Справочный центр.">Справка</a></li>
+            </ul>
+            <span> Facebook © 2021</span>
+        </div>
+        </div>
+    </body>
+</html>
