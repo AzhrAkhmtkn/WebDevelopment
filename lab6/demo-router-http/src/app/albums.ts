@@ -1,7 +1,7 @@
-import {Album} from "./models";
+import {Album} from "./orig_models";
 
 
-export const ALBUMS: Album[] = [
+export const Orig_albums: Album[] = [
   {
     "userId": 1,
     "id": 1,
